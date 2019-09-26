@@ -1,32 +1,32 @@
 {
-  "name": "express-faster",
-  "displayName": "express-faster",
-  "description": "Best snippets to develop express applications faster",
-  "version": "0.0.1",
-  "publisher": "benitezdouglas",
-  "engines": {
-      "vscode": "^1.38.0"
-  },
-  "categories": [
-      "Snippets"
-  ],
-  "contributes": {
-      "snippets": [
-          {
-              "language": "en",
-              "path": "./snippets/snippets.json"
-          }
-      ]
-  },
-  "keywords": [
-    "javascript",
-    "nodejs",
-    "express",
-    "snippet",
-    "expressjs"
-  ],
-  "repository": {
-      "type": "git",
-      "url": "https://github.com/benitezdouglas/express-faster"
-  }
+    "name": "express-faster",
+    "displayName": "express-faster",
+    "description": "Best snippets to develop express applications faster",
+    "version": "0.1.0",
+    "publisher": "benitezdouglas",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "en",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "keywords": [
+        "javascript",
+        "nodejs",
+        "express",
+        "snippet",
+        "expressjs"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/benitezdouglas/express-faster"
+    }
 }
