@@ -73,11 +73,11 @@
       "\t${2:body of get}",
       "});",
       "",
-      "app.listen(${1:port}, () => {",
+      "app.listen(${2:port}, () => {",
       "\tconsole.log(`Server started on ${2:port}`);",
       "});",
       "",
-      "//npm start, open your browser and run localhost:${3:port}"
+      "//npm start, open your browser and run localhost:${2:port}"
     ],
     "description": "Create a express app template"
   }
