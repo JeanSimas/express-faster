@@ -1,0 +1,21 @@
+{
+    "name": "express-faster",
+    "displayName": "express-faster",
+    "description": "best snippets to develop express applications faster",
+    "version": "0.0.1",
+    "publisher": "benitezdouglas",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "en",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

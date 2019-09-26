@@ -1,0 +1,11 @@
+{
+  "app.all": {
+    "prefix": "app.all",
+    "body": [
+      "app.all('${1:path}', (req, res, next) => {",
+      "\t$2",
+      "});"
+    ],
+    "description": "Similar to app.METHOD(), matches all HTTP requests"
+  }
+}
