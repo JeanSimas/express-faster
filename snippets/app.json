@@ -70,14 +70,14 @@
       "const app = express();",
       "",
       "app.get('${1:path}', (req, res) => {",
-      "\t${2:body of get}",
+      "\t${2:body}",
       "});",
       "",
-      "app.listen(${2:port}, () => {",
-      "\tconsole.log(`Server started on ${2:port}`);",
+      "app.listen(${3:port}, () => {",
+      "\tconsole.log(`Server started on ${3:port}`);",
       "});",
       "",
-      "//npm start, open your browser and run localhost:${2:port}"
+      "//npm start, open your browser and run localhost:${3:port}"
     ],
     "description": "Create a express app template"
   }
