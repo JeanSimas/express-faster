@@ -18,5 +18,16 @@
     "prefix": "iexpress",
     "body": "import express from 'express';",
     "description": "Import Expess package from node_modules/"
+  },
+  "export controller": {
+    "prefix": "controller",
+    "body": [
+      "module.exports = {",
+      "  index () {",
+      "    ${$1:body}",
+      "  }",
+      "}"
+    ],
+    "description": "Import Expess package from node_modules/"
   }
 }
