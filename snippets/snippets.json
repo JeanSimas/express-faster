@@ -1,4 +1,9 @@
 {
+  "require a module": {
+    "prefix": "require",
+    "body": "const $1 = require('$2');",
+    "description": "Require package from node_modules/ or project"
+  },
   "require express module": {
     "prefix": "exp",
     "body": "const express = require('express');",
