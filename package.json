@@ -19,6 +19,10 @@
             {
                 "language": "javascript",
                 "path": "./snippets/app.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/router.json"
             }
         ]
     },
