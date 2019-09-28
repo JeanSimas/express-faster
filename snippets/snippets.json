@@ -1,13 +1,18 @@
 {
   "require express module": {
-    "prefix": "express",
+    "prefix": "exp",
     "body": "const express = require('express');",
     "description": "Require Expess package from node_modules/"
   },
   "require Router() from express": {
-    "prefix": "express",
+    "prefix": "router",
     "body": "const express = require('express').Router();",
-    "description": "Require Expess package from node_modules/"
+    "description": "Require Router() from express package"
+  },
+  "require routes index": {
+    "prefix": "routes",
+    "body": "const routes = require('$1:routes');",
+    "description": "Require routes index from routes directory"
   },
   "import express module": {
     "prefix": "iexpress",
