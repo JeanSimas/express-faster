@@ -73,7 +73,7 @@
       "\t${2:body}",
       "});",
       "",
-      "app.listen(${process.env.PORT || 3:port}, () => {",
+      "app.listen(process.env.PORT || ${3:port}, () => {",
       "\tconsole.log(`Server started on ${3:port}`);",
       "});",
       "",
