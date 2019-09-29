@@ -19,6 +19,11 @@
     "body": "const routes = require('$1:routes');",
     "description": "Require routes index from routes directory"
   },
+  "require mongoose": {
+    "prefix": "mongoose",
+    "body": "const mongoose = require('mongoose');",
+    "description": "Require mongoose from node_modules/"
+  },
   "import express module": {
     "prefix": "iexpress",
     "body": "import express from 'express';",

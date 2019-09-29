@@ -10,7 +10,7 @@
     "description": "Insert app.use"
   },
   "app.use.json": {
-    "prefix": "app.use",
+    "prefix": "app.json",
     "body": "app.use('express.json()');",
     "description": "Insert express.json to app (app.use)"
   },
