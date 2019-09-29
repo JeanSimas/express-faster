@@ -16,7 +16,7 @@
   },
   "require routes index": {
     "prefix": "routes",
-    "body": "const routes = require('$1:routes');",
+    "body": "const routes = require('./routes');",
     "description": "Require routes index from routes directory"
   },
   "require mongoose": {
