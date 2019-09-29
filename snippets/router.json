@@ -4,6 +4,16 @@
     "body": "const router = require('express').Router();",
     "description": "Initiazlizing router variable"
   },
+  "router.use": {
+    "prefix": "router.use",
+    "body": "router.use($1);",
+    "description": "Insert router.use()"
+  },
+  "router.use.path": {
+    "prefix": "router.use.path",
+    "body": "router.use(${1:path}, ${2:router});",
+    "description": "Insert router.use() with path"
+  },
   "router.get": {
     "prefix": "router.get",
     "body": [
