@@ -33,6 +33,16 @@
       "  }",
       "}"
     ],
-    "description": "Import Expess package from node_modules/"
+    "description": "Export Controller"
+  },
+  "export router": {
+    "prefix": "export.router",
+    "body": "module.exports = router",
+    "description": "Export Router"
+  },
+  "export model": {
+    "prefix": "export.model",
+    "body": "module.exports = model('${$1:model}', ${$2:model}",
+    "description": "Export Model"
   }
 }
