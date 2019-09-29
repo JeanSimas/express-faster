@@ -11,7 +11,7 @@
   },
   "app.use.json": {
     "prefix": "app.json",
-    "body": "app.use('express.json()');",
+    "body": "app.use(express.json());",
     "description": "Insert express.json to app (app.use)"
   },
   "app.get": {
