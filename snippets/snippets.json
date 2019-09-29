@@ -11,7 +11,7 @@
   },
   "require Router() from express": {
     "prefix": "router",
-    "body": "const express = require('express').Router();",
+    "body": "const router = require('express').Router();",
     "description": "Require Router() from express package"
   },
   "require routes index": {

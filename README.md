@@ -1,6 +1,6 @@
-# express-faster README
+# express-faster Snippets
 
-This is the README for "express-faster".
+express-faster is a collection of snippets to made express developement faster.
 
 ## Features
 
