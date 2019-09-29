@@ -9,6 +9,11 @@
     "body": "app.use('$1');",
     "description": "Insert app.use"
   },
+  "app.use.json": {
+    "prefix": "app.use",
+    "body": "app.use('express.json()');",
+    "description": "Insert express.json to app (app.use)"
+  },
   "app.get": {
     "prefix": "app.get",
     "body": [
