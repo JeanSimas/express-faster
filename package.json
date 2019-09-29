@@ -2,7 +2,7 @@
     "name": "express-faster",
     "displayName": "express-faster",
     "description": "Best snippets to develop express applications faster",
-    "version": "0.2.6",
+    "version": "0.2.7",
     "publisher": "benitezdouglas",
     "engines": {
         "vscode": "^1.38.0"
