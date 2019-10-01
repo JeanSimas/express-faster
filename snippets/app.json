@@ -60,7 +60,7 @@
     "description": "Routes HTTP PATCH request."
   },
   "app.route": {
-    "prefix": "app.patch",
+    "prefix": "app.route",
     "body": [
       "app.route('/${1:path}')",
         ".all(function (req, res, next) {",
@@ -74,7 +74,7 @@
         "  // maybe add a new event...",
         "});"
     ],
-    "description": "Routes HTTP PATCH request."
+    "description": "app.route"
   }, 
   "app.listen": {
     "prefix": "listen",
