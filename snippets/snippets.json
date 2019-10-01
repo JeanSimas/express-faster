@@ -5,7 +5,7 @@
     "description": "Require package from node_modules/ or project"
   },
   "require express module": {
-    "prefix": "exp",
+    "prefix": "express",
     "body": "const express = require('express');",
     "description": "Require Expess package from node_modules/"
   },
