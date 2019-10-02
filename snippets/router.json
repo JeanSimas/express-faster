@@ -23,15 +23,6 @@
     ],
     "description": "Routes HTTP GET request."
   },
-  "router.delete": {
-    "prefix": "router.delete",
-    "body": [
-      "router.delete('${1:path}', (req, res) => {",
-      "\t$2",
-      "});"
-    ],
-    "description": "To route to a specified path with a callback"
-  },
   "router.post": {
     "prefix": "router.post",
     "body": [
@@ -49,6 +40,15 @@
       "});"
     ],
     "description": "Routes HTTP PUT request."
+  },
+  "router.delete": {
+    "prefix": "router.delete",
+    "body": [
+      "router.delete('${1:path}', (req, res) => {",
+      "\t$2",
+      "});"
+    ],
+    "description": "To route to a specified path with a callback"
   },
   "router.patch": {
     "prefix": "router.patch",

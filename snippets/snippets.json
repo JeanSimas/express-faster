@@ -9,6 +9,11 @@
     "body": "const express = require('express');",
     "description": "Require Expess package from node_modules/"
   },
+  "import express module": {
+    "prefix": "iexpress",
+    "body": "import express from 'express';",
+    "description": "Import Expess package from node_modules/"
+  },
   "require Router() from express": {
     "prefix": "router",
     "body": "const router = require('express').Router();",
@@ -37,16 +42,11 @@
     ],
     "description": "Require mongoose from node_modules/"
   },
-  "import express module": {
-    "prefix": "iexpress",
-    "body": "import express from 'express';",
-    "description": "Import Expess package from node_modules/"
-  },
   "export controller": {
     "prefix": "controller",
     "body": [
       "module.exports = {",
-      "  index () {",
+      "  index (req, res) {",
       "    ${1:body}",
       "  }",
       "}"

@@ -1,18 +1,57 @@
 # express-faster Snippets
 
-express-faster is a collection of snippets to made express developement faster.
+express-faster é uma coleção de snippets para tornar o desenvolvimento de aplicações com expressjs mais rapido.
 
-## Features
+## Instalação
 
-> Tip: Stay tuned
+No vscode Pressione F1 localize a opção Extensions: Install Extensions ou clique na aba Extensions, pesquise `express-faster` e clique em Install.
 
-## Requirements
+## Snippets
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+### express() 
+
+> express
+> iexpress
+> router
+> routes
+> mongoose
+> mongoose.conn
+> controller
+> export.router
+> export.model
+
+### express() | Methods |
+
+> express.json
+
+### Application
+
+> app
+> app.use
+> app.get
+> app.post
+> app.put
+> app.delete
+> app.patch
+> app.route
+> listen
+> app.listen
+> app.template
+
+### Router
+
+> router
+> router.use
+> router.use.path
+> router.get
+> router.post
+> router.put
+> router.delete
+> router.patch
+
 
 ### For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+* [Problemas e sujestões clique aqui](https://github.com/benitezdouglas/express-faster)
 
-**Enjoy!**
+**Aproveite!**
