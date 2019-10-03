@@ -52,6 +52,6 @@ No vscode Pressione F1 localize a opção Extensions: Install Extensions ou cliq
 
 ### For more information
 
-* [Problemas e sujestões clique aqui](https://github.com/benitezdouglas/express-faster)
+* [Problemas e sujestões clique aqui](https://github.com/benitezdouglas/express-faster/issues)
 
 **Aproveite!**
