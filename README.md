@@ -36,7 +36,7 @@ No vscode Pressione F1 localize a opção Extensions: Install Extensions ou cliq
 * app.route
 * listen
 * app.listen
-* app.template
+* app.template (express init)
 
 ### Router
 
