@@ -8,50 +8,49 @@ No vscode Pressione F1 localize a opção Extensions: Install Extensions ou cliq
 
 ## Snippets
 
-### express() 
+### express()
 
-* express
-* iexpress
-* router
-* routes
-* mongoose
-* mongoose.conn
-* controller
-* export.router
-* export.model
+- express
+- iexpress
+- router
+- routes
+- mongoose
+- mongoose.conn
+- controller
+- export.router
+- export.model
 
 ### express() | Methods |
 
-* express.json
+- express.json
 
 ### Application
 
-* app
-* app.use
-* app.get
-* app.post
-* app.put
-* app.delete
-* app.patch
-* app.route
-* listen
-* app.listen
-* app.template (express init)
+- app
+- app.use
+- app.get
+- app.post
+- app.put
+- app.delete
+- app.patch
+- app.route
+- listen
+- app.listen
+- app.template (express init)
 
 ### Router
 
-* router
-* router.use
-* router.use.path
-* router.get
-* router.post
-* router.put
-* router.delete
-* router.patch
-
+- router
+- router.use
+- router.use.path
+- router.get
+- router.post
+- router.put
+- router.delete
+- router.patch
 
 ### For more information
 
-* [Problemas e sujestões clique aqui](https://github.com/benitezdouglas/express-faster/issues)
+- [Problemas e sujestões clique aqui](https://github.com/benitezdouglas/express-faster/issues)
 
 **Aproveite!**
